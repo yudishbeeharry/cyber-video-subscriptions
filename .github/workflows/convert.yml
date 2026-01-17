@@ -40,18 +40,22 @@ jobs:
                           if url.lower() == 'none' or not url:
                               continue
                           
-                          # NewPipe expects exact format
-                          subscriptions.append({
-                              "service_id": 0,
-                              "url": url,
-                              "name": conference_name
-                          })
+                          # Only accept URLs with /channel/ format
+                          # Skip @username, /user/, /c/ formats as NewPipe rejects them
+                          if '/channel/' in url:
+                              subscriptions.append({
+                                  "service_id": 0,
+                                  "url": url,
+                                  "name": conference_name
+                              })
+                          else:
+                              print(f"⚠ Skipping {conference_name}: {url} (not in /channel/ format)")
 
-          # Match exact format from your working export
+          # Match exact format from working export
           output = {
               "subscriptions": subscriptions,
-              "app_version": "0.28.0",
-              "app_version_int": 999
+              "app_version": "0.28.0-42-202601100148",
+              "app_version_int": 42
           }
 
           with open('newpipe_subscriptions.json', 'w', encoding='utf-8') as f:
