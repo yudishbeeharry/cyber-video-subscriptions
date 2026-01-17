@@ -2,6 +2,11 @@
   "subscriptions": [
     {
       "service_id": 0,
+      "url": "https://www.youtube.com/@44contv/videos",
+      "name": "44CON"
+    },
+    {
+      "service_id": 0,
       "url": "https://www.youtube.com/channel/UCoHypmu8rxlB5Axh5JxFZsA",
       "name": "BalCCon"
     },
@@ -32,6 +37,11 @@
     },
     {
       "service_id": 0,
+      "url": "https://www.youtube.com/@BsideslvOrg",
+      "name": "BSides Las Vegas"
+    },
+    {
+      "service_id": 0,
       "url": "https://www.youtube.com/@bsidesleeds1246",
       "name": "BSides Leeds"
     },
@@ -47,13 +57,13 @@
     },
     {
       "service_id": 0,
-      "url": "https://www.youtube.com/@BsideslvOrg",
-      "name": "BSides Las Vegas"
+      "url": "https://www.youtube.com/channel/UC43VEnrIe-4mbgx_83TM_A",
+      "name": "BSides Munich"
     },
     {
       "service_id": 0,
-      "url": "https://www.youtube.com/channel/UC43VEnrIe-4mbgx_83TM_A",
-      "name": "BSides Munich"
+      "url": "https://www.youtube.com/@BSidesSF",
+      "name": "BSides San Francisco"
     },
     {
       "service_id": 0,
@@ -102,6 +112,16 @@
     },
     {
       "service_id": 0,
+      "url": "https://www.youtube.com/h2hconference",
+      "name": "Hackers 2 Hackers Conference (H2HC)"
+    },
+    {
+      "service_id": 0,
+      "url": "https://www.youtube.com/channel2600",
+      "name": "Hackers On Planet Earth (HOPE)"
+    },
+    {
+      "service_id": 0,
       "url": "https://www.youtube.com/user/hacktivity",
       "name": "Hacktivity"
     },
@@ -117,6 +137,11 @@
     },
     {
       "service_id": 0,
+      "url": "https://www.youtube.com/@scrtinsomnihack",
+      "name": "Insomni\u2019hack"
+    },
+    {
+      "service_id": 0,
       "url": "https://www.youtube.com/@Layer8Conference",
       "name": "Layer 8 Conference"
     },
@@ -129,6 +154,11 @@
       "service_id": 0,
       "url": "https://www.youtube.com/@pwnthem0le",
       "name": "M0lecon"
+    },
+    {
+      "service_id": 0,
+      "url": "https://www.youtube.com/ndsssymposium",
+      "name": "NDSS Symposium"
     },
     {
       "service_id": 0,
