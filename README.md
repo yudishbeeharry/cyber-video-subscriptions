@@ -1,2 +1,54 @@
 # cyber-video-subscriptions
- A curated list of offensive security and OSINT conference YouTube channels.
+A curated list of offensive security and OSINT conference YouTube channels.
+Conference:YoutubeChannelURL
+AlligatorCon:None
+AMUSEC:None
+Area 41:https://www.youtube.com/@defconswitzerland
+AVAR:None
+BalCCon:https://www.youtube.com/channel/UCoHypmu8rxlB5Axh5JxFZsA
+Black Hat:https://www.youtube.com/@BlackHatOfficialYT
+BruCON:https://www.youtube.com/@brucontalks
+BSides Athens:https://www.youtube.com/c/SecurityBSidesAthens
+BSides Bern:None
+BSides Budapest:https://www.youtube.com/@BSidesBUD
+BSides Lancashire:https://www.youtube.com/@BSIDESLANCASHIRE
+BSides Leeds:https://www.youtube.com/@bsidesleeds1246
+BSides Lisbon:https://www.youtube.com/bsideslisbon
+BSides London:https://www.youtube.com/@SecuritybsidesOrgUk
+BSides Las Vegas:https://www.youtube.com/@BsideslvOrg
+BSides Munich:https://www.youtube.com/channel/UC43VEnrIe-4mbgx_83TM_A
+Chaos Communication Congress:https://www.youtube.com/@mediacccde
+Copenhagen CyberCrime Conference:https://www.youtube.com/@CSISSecurityGroup
+DefCamp:https://www.youtube.com/user/DefCampRO
+DEF CON:https://www.youtube.com/user/DEFCONConference
+DeepSec:None
+Elbsides:https://www.youtube.com/@elbsides78
+EkoParty:https://www.youtube.com/EkopartyConference
+Hack in Paris:https://www.youtube.com/@hackinparis
+Hack in the Box:https://www.youtube.com/@hitbsecconf
+Hacktivity:https://www.youtube.com/user/hacktivity
+Hardwear.io:https://www.youtube.com/c/hardweario
+Hexacon:https://www.youtube.com/@hexacon4091
+Layer 8 Conference:https://www.youtube.com/@Layer8Conference
+LeHACK:https://www.youtube.com/@hzvprod
+M0lecon:https://www.youtube.com/@pwnthem0le
+No cON Name:None
+NoHat:None
+NorthSec:https://www.youtube.com/@NorthSecIo
+OffensiveCon:https://www.youtube.com/@OffensiveCon
+Open Security Conference:None
+PancakesCon:https://www.youtube.com/@PancakesCon
+PivotCon:None
+REcon:https://www.youtube.com/channel/UCqn2811xAehfLgpEy386T8Q
+SecTor:https://www.youtube.com/@SecTorca
+SecSea:https://www.youtube.com/c/secsea
+Security Fest:https://www.youtube.com/@SecurityFest
+ShmooCon:None
+Swiss Cyber Storm:https://www.youtube.com/@SwissCyberStorm
+T2:None
+Troopers:https://www.youtube.com/@TROOPERScon
+UYBHYS:None
+Virus Bulletin Conference:https://www.youtube.com/@virusbtn
+Volcamp:https://www.youtube.com/@volcamp8744
+Wild West Hackin' Fest:https://www.youtube.com/wildwesthackinfest
+Zero Day Con:None
