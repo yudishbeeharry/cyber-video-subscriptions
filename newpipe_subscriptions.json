@@ -2,11 +2,6 @@
   "subscriptions": [
     {
       "service_id": 0,
-      "url": "https://www.youtube.com/@defconswitzerland",
-      "name": "Area 41"
-    },
-    {
-      "service_id": 0,
       "url": "https://www.youtube.com/channel/UCoHypmu8rxlB5Axh5JxFZsA",
       "name": "BalCCon"
     },
@@ -79,6 +74,11 @@
       "service_id": 0,
       "url": "https://www.youtube.com/user/DEFCONConference",
       "name": "DEF CON"
+    },
+    {
+      "service_id": 0,
+      "url": "https://www.youtube.com/@defconswitzerland",
+      "name": "DEF CON Switzerland"
     },
     {
       "service_id": 0,
