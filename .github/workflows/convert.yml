@@ -1,0 +1,66 @@
+name: Update NewPipe Subscriptions
+
+on:
+  push:
+    paths:
+      - 'conferences.lst'
+  workflow_dispatch:
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Convert to NewPipe JSON
+        run: |
+          python3 << 'EOF'
+          import json
+
+          subscriptions = []
+          with open('conferences.lst', 'r') as f:
+              lines = f.readlines()
+              
+              # Skip first line (header)
+              for line in lines[1:]:
+                  line = line.strip()
+                  if not line or line.startswith('#'):
+                      continue
+                  
+                  # Split by colon to get conference name and URL
+                  if ':' in line:
+                      parts = line.split(':', 1)
+                      if len(parts) == 2:
+                          conference_name = parts[0].strip()
+                          url = parts[1].strip()
+                          
+                          # Skip if URL is "None" or empty
+                          if url.lower() == 'none' or not url:
+                              continue
+                          
+                          subscriptions.append({
+                              "service_id": 0,
+                              "url": url,
+                              "name": conference_name
+                          })
+
+          output = {
+              "subscriptions": subscriptions,
+              "app_version": "0.28.0-42-202501100148",
+              "app_version_int": 42
+          }
+
+          with open('newpipe_subscriptions.json', 'w') as f:
+              json.dump(output, f, indent=2)
+          
+          print(f"✓ Converted {len(subscriptions)} channels (skipped entries with 'None')")
+          EOF
+      
+      - name: Commit JSON file
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+          git add newpipe_subscriptions.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update NewPipe subscriptions JSON" && git push)
